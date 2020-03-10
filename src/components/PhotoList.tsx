@@ -21,9 +21,11 @@ class PhotoList extends React.Component<MyProps, MyState> {
             }
             if (tmpPhotos.length === 3) {
                 cpt++;
-                this.assignateCoords(tmpPhotos);
-                photosWithCoordinates = photosWithCoordinates.concat(tmpPhotos);
+                let shuffledPhotos = this.shuffle(tmpPhotos);
+                this.assignateCoords(shuffledPhotos);
+                photosWithCoordinates = photosWithCoordinates.concat(shuffledPhotos);
                 tmpPhotos = [];
+                shuffledPhotos = [];
             }
         }
         this.setState({photosWithCoordinates});
@@ -39,6 +41,16 @@ class PhotoList extends React.Component<MyProps, MyState> {
         
         return coordPhotosLandscape.concat(coordPhotosPortrait);
      }
+
+     shuffle(array: IPhoto[]): IPhoto[] {
+        let array2:IPhoto[] = [];
+        while(array.length !== 0) {
+            let randomIndex = Math.floor(Math.random() * array.length)
+            array2.push(array[randomIndex]);
+            array.splice(randomIndex, 1);
+        }
+        return array2;
+    }
 
     getOrientation(w: number, h:number): string {
         let orientation = 'landscape';
@@ -135,14 +147,12 @@ class PhotoList extends React.Component<MyProps, MyState> {
 
     render() {
         const { photosWithCoordinates } = this.state;
-        let cpt: number = 0;
         let rowStart: number = 1;
         let rowEnd: number = 5;
         return (
             <div className="gallery">
                 {
                  photosWithCoordinates.map((photo, index) => {
-                    cpt++;
                      const Figure = styled.figure`
                         grid-column-start: ${photo.colStart};
                         grid-column-end: ${photo.colEnd};
@@ -154,7 +164,7 @@ class PhotoList extends React.Component<MyProps, MyState> {
                         rowEnd = rowEnd + 4;
                     }
                       return (
-                        <Figure className={`item item--${cpt}`} key={index}>
+                        <Figure className={`item item--${index}`} key={index}>
                             <img src={photo.url_c} alt={photo.title} />
                             <figcaption>{photo.title}</figcaption>
                         </Figure>
