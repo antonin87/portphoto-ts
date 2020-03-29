@@ -5,4 +5,4 @@
 - get cached photos into browser
 - use context API to switch theme / gap grid or photo number
 
-![](readme-gif.gif)
+![](readme-picture.gif)
