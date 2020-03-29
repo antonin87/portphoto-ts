@@ -1,5 +1,5 @@
-export const KEY = '44d2d8f43daa7ebd61eadce325604b8b';
-export const USER_ID = '127882799%40N05';
+export const KEY = 'YOUR_KEY';
+export const USER_ID = 'YOUR_USER_ID';
 export const DELAY_TRANSITION_PHOTO = 1000;
 export const HEIGHT_GAP_GRID = 4;
 export const PHOTO_PER_PAGE = 15;
