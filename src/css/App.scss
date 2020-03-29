@@ -1,0 +1,301 @@
+html, body, #root, .App {
+  width:100%;
+  height:100%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.App {
+ text-align: center;
+ justify-content: center;
+ font-family: 'Titillium Web', sans-serif;
+
+  header {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    height:40px;
+    width: 100%;
+    padding:0 10px;
+  }
+}
+
+.loader {
+  position:absolute;
+  top:33%;
+  left:50%; 
+}
+
+.gallery {
+  display: grid;    
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(50, 5vw);
+  grid-gap: 8px;
+  padding:0 10px 10px 10px;
+}
+
+.gallery figure {
+  display: block;
+  position:relative;
+  padding:0;
+  margin:0;
+  overflow: hidden;
+}
+
+.gallery figure figcaption {
+  position:absolute;
+  height:8vh;
+  bottom:0;
+  display:block;
+  line-height: 8vh;
+  margin-bottom:-8vh;
+  text-transform: uppercase;
+  font-weight:bold;
+  width: 100%;
+  background-color: rgba(0,0,0,0.6);
+  color:#fff;
+}
+
+.gallery figure:hover figcaption{
+  margin-bottom:0;
+  transition: margin .3s ease;
+}
+
+.gallery figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/*
+DETAILS PHOTOS
+*/
+
+.details-photo-wrapper {
+  width:100%;
+  height:100%;
+  position:relative;
+  left:0;
+  top:0;
+}
+
+.detailsPhoto {
+  display:flex;
+  position:absolute;
+  left:30%;
+  transform:translateX(-30%);
+  //transition: transform 1s ease, left 1s ease;
+  width:100%;
+  
+}
+
+.detailsPhoto.is-active {
+  position:absolute;
+  left:0;
+  transform:translateX(0);
+}
+
+.detailsPhoto img {
+  width:60%;
+  display:block;
+}
+
+.detailsPhoto figcaption ul {
+  text-align: left;
+  padding: 0 0 0 20px;
+  font-size: 18px;
+}
+
+.detailsPhoto figcaption ul li {
+  padding:5px 0;
+}
+
+.detailsPhoto figcaption ul li.title {
+  font-size: 24px;
+  padding-bottom: 10px;
+  padding-right: 60px;
+  margin-bottom: 30px;
+}
+
+.detailsPhoto figcaption ul.camera {
+  display:flex;
+  align-items: center;
+  justify-content: left;
+  margin:20px 0 20px 17px;
+}
+
+
+.detailsPhoto figcaption ul.exif-details {
+  display: flex;
+  max-width: 245px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 40px;
+}
+
+.detailsPhoto figcaption ul.exif-details li {
+  background-repeat: no-repeat;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  min-width: 110px;
+  padding-bottom:20px;
+}
+
+
+.detailsPhoto figcaption ul.exif-details li svg, 
+.detailsPhoto figcaption ul.camera li.camera-icon svg
+ {
+  width:30px;
+  display:block;
+  margin-right:10px;
+}
+
+.detailsPhoto figcaption ul.camera li.camera-icon svg
+ {
+  width:50px;
+}
+
+
+.gallery.gallery--dark-theme,
+.header.header--dark-theme, 
+.details-photo-wrapper.details-photo-wrapper--dark-theme {
+  background-color:rgba(0,0,0,1);
+  color:#fff;
+  .item {
+    border:3px solid white;
+  }
+  .detailsPhoto {
+    background-color: #000;
+  }
+  .detailsPhoto figcaption ul.exif-details li svg, .detailsPhoto figcaption ul.camera li.camera-icon svg {
+    fill:white;
+  }
+  
+}
+
+
+.gallery.gallery--light-theme,
+.header.header--light-theme, 
+.details-photo-wrapper.details-photo-wrapper--light-theme {
+  background-color:rgba(255,255,255,1);
+  color:#000;
+  .item {
+    border:3px solid black;
+  }
+  .detailsPhoto figcaption ul.exif-details li svg, .detailsPhoto figcaption ul.camera li.camera-icon svg {
+    fill:black;
+  }
+}
+
+
+/* DEFAULT COLOR VARIABLES */
+
+$ball-color: #ffffff;
+$active-color: #62c28e;
+$inactive-color: #cccccc;
+
+/* DEFAULT SIZING VARIABLES */
+
+$switch-size: 20px;
+$ball-spacing: 2px;
+$stretch-factor: 2;
+
+/* DEFAULT CLASS VARIABLE */
+
+$switch-class: 'switch-toggle';
+
+/* STYLES */
+
+@mixin switch($size: $switch-size, $spacing: $ball-spacing, $stretch: $stretch-factor, $color: $active-color, $class: $switch-class) {
+    // SELECTOR VARIABLES
+    $self: '.' + $class;
+    $on: #{$self}--on;
+    $off: #{$self}--off;
+    // SWITCH VARIABLES
+    $active-color: $color;
+    $switch-size: $size;
+    $ball-spacing: $spacing;
+    $stretch-factor: $stretch;
+    $ball-size: $switch-size - ($ball-spacing * 2);
+    $ball-slide-size: ($switch-size * ($stretch-factor - 1) + $ball-spacing);
+    // SWITCH STYLES
+    height: $switch-size;
+    width: $switch-size * $stretch-factor;
+    cursor: pointer !important;
+    user-select: none !important;
+    position: relative !important;
+    display: inline-block;
+    &#{$on},
+    &#{$off} {
+        &::before,
+        &::after {
+            content: '';
+            left: 0;
+            position: absolute !important;
+        }
+        &::before {
+            height: inherit;
+            width: inherit;
+            border-radius: $switch-size / 2;
+            will-change: background;
+            transition: background .4s .3s ease-out;
+        }
+        &::after {
+            top: $ball-spacing;
+            height: $ball-size;
+            width: $ball-size;
+            border-radius: $ball-size / 2;
+            background: $ball-color !important;
+            will-change: transform;
+            transition: transform .4s ease-out;
+        }
+    }
+    &#{$on} {
+        &::before {
+            background: $active-color !important;
+        }
+        &::after {
+            transform: translateX($ball-slide-size);
+        }
+    }
+    &#{$off} {
+        &::before {
+            background: $inactive-color !important;
+        }
+        &::after {
+            transform: translateX($ball-spacing);
+        }
+    }
+}
+
+@function get-switch-class($selector) {
+    // First parse the selector using `selector-parse`
+    // Extract the first selector in the first list using `nth` twice
+    // Extract the first simple selector using `simple-selectors` and `nth`
+    // Extract the class name using `str-slice`
+    @return str-slice(nth(simple-selectors(nth(nth(selector-parse($selector), 1), 1)), 1), 2);
+}
+
+.switch {
+    $self: &;
+    $toggle: #{$self}-toggle;
+    $class: get-switch-class($toggle);
+    // default theme
+    &#{$self}--default>#{$toggle} {
+        // Always pass the $class to the mixin
+        @include switch($class: $class);
+    }
+    // graphite-small theme
+    &#{$self}--graphite-small>#{$toggle} {
+        // A smaller switch with a `gray` active color
+        // Always pass the $class to the mixin
+        @include switch($color: gray, $size: 20px, $class: $class);
+    }
+}
+
+
+

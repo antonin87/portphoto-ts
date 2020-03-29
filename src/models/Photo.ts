@@ -9,8 +9,10 @@ export interface Photo {
     isfriend: number
     isfamily: number,
     width_c: number,
+    width_o: number,
     height_c: number,
     url_c: string,
+    url_o: string,
     colStart: number,
     colEnd: number
 };

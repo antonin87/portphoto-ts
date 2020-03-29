@@ -1,0 +1,606 @@
+{
+    "photo": {
+        "id": "49310547727",
+        "secret": "2086781f12",
+        "server": "65535",
+        "farm": 66,
+        "camera": "Canon EOS 6D",
+        "exif": [
+            {
+                "tagspace": "IFD0",
+                "tagspaceid": 0,
+                "tag": "Compression",
+                "label": "Compression",
+                "raw": {
+                    "_content": "JPEG (old-style)"
+                }
+            },
+            {
+                "tagspace": "IFD0",
+                "tagspaceid": 0,
+                "tag": "Make",
+                "label": "Make",
+                "raw": {
+                    "_content": "Canon"
+                }
+            },
+            {
+                "tagspace": "IFD0",
+                "tagspaceid": 0,
+                "tag": "Model",
+                "label": "Model",
+                "raw": {
+                    "_content": "Canon EOS 6D"
+                }
+            },
+            {
+                "tagspace": "IFD0",
+                "tagspaceid": 0,
+                "tag": "XResolution",
+                "label": "X-Resolution",
+                "raw": {
+                    "_content": "240"
+                },
+                "clean": {
+                    "_content": "240 dpi"
+                }
+            },
+            {
+                "tagspace": "IFD0",
+                "tagspaceid": 0,
+                "tag": "YResolution",
+                "label": "Y-Resolution",
+                "raw": {
+                    "_content": "240"
+                },
+                "clean": {
+                    "_content": "240 dpi"
+                }
+            },
+            {
+                "tagspace": "IFD0",
+                "tagspaceid": 0,
+                "tag": "ResolutionUnit",
+                "label": "Resolution Unit",
+                "raw": {
+                    "_content": "inches"
+                }
+            },
+            {
+                "tagspace": "IFD0",
+                "tagspaceid": 0,
+                "tag": "Software",
+                "label": "Software",
+                "raw": {
+                    "_content": "Adobe Photoshop Lightroom 5.4 (Macintosh)"
+                }
+            },
+            {
+                "tagspace": "IFD0",
+                "tagspaceid": 0,
+                "tag": "ModifyDate",
+                "label": "Date and Time (Modified)",
+                "raw": {
+                    "_content": "2020:01:01 16:20:04"
+                }
+            },
+            {
+                "tagspace": "IFD0",
+                "tagspaceid": 0,
+                "tag": "YCbCrPositioning",
+                "label": "YCbCr Positioning",
+                "raw": {
+                    "_content": "Centered"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "ExposureTime",
+                "label": "Exposure",
+                "raw": {
+                    "_content": "1/4000"
+                },
+                "clean": {
+                    "_content": "1/4000 sec"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "FNumber",
+                "label": "Aperture",
+                "raw": {
+                    "_content": "1.8"
+                },
+                "clean": {
+                    "_content": "f/1.8"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "ExposureProgram",
+                "label": "Exposure Program",
+                "raw": {
+                    "_content": "Aperture-priority AE"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "ISO",
+                "label": "ISO Speed",
+                "raw": {
+                    "_content": "100"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "SensitivityType",
+                "label": "Sensitivity Type",
+                "raw": {
+                    "_content": "Recommended Exposure Index"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "RecommendedExposureIndex",
+                "label": "Recommended Exposure Index",
+                "raw": {
+                    "_content": "100"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "ExifVersion",
+                "label": "Exif Version",
+                "raw": {
+                    "_content": "0230"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "DateTimeOriginal",
+                "label": "Date and Time (Original)",
+                "raw": {
+                    "_content": "2019:12:29 13:29:59"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "CreateDate",
+                "label": "Date and Time (Digitized)",
+                "raw": {
+                    "_content": "2019:12:29 13:29:59"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "ComponentsConfiguration",
+                "label": "Components Configuration",
+                "raw": {
+                    "_content": "Y, Cb, Cr, -"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "ExposureCompensation",
+                "label": "Exposure Bias",
+                "raw": {
+                    "_content": "-1/3"
+                },
+                "clean": {
+                    "_content": "-1/3 EV"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "MaxApertureValue",
+                "label": "Max Aperture Value",
+                "raw": {
+                    "_content": "1.8"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "MeteringMode",
+                "label": "Metering Mode",
+                "raw": {
+                    "_content": "Center-weighted average"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "Flash",
+                "label": "Flash",
+                "raw": {
+                    "_content": "Off, Did not fire"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "FocalLength",
+                "label": "Focal Length",
+                "raw": {
+                    "_content": "50.0 mm"
+                },
+                "clean": {
+                    "_content": "50 mm"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "SubSecTimeOriginal",
+                "label": "Sub Sec Time Original",
+                "raw": {
+                    "_content": "11"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "SubSecTimeDigitized",
+                "label": "Sub Sec Time Digitized",
+                "raw": {
+                    "_content": "11"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "FlashpixVersion",
+                "label": "Flashpix Version",
+                "raw": {
+                    "_content": "0100"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "ColorSpace",
+                "label": "Color Space",
+                "raw": {
+                    "_content": "sRGB"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "FocalPlaneXResolution",
+                "label": "Focal Plane X-Resolution",
+                "raw": {
+                    "_content": "1520"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "FocalPlaneYResolution",
+                "label": "Focal Plane Y-Resolution",
+                "raw": {
+                    "_content": "1520"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "FocalPlaneResolutionUnit",
+                "label": "Focal Plane Resolution Unit",
+                "raw": {
+                    "_content": "cm"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "CustomRendered",
+                "label": "Custom Rendered",
+                "raw": {
+                    "_content": "Normal"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "ExposureMode",
+                "label": "Exposure Mode",
+                "raw": {
+                    "_content": "Auto"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "WhiteBalance",
+                "label": "White Balance",
+                "raw": {
+                    "_content": "Auto"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "SceneCaptureType",
+                "label": "Scene Capture Type",
+                "raw": {
+                    "_content": "Standard"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "LensInfo",
+                "label": "Lens Info",
+                "raw": {
+                    "_content": "50mm f/?"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "LensModel",
+                "label": "Lens Model",
+                "raw": {
+                    "_content": "EF50mm f/1.8 STM"
+                }
+            },
+            {
+                "tagspace": "ExifIFD",
+                "tagspaceid": 0,
+                "tag": "LensSerialNumber",
+                "label": "Lens Serial Number",
+                "raw": {
+                    "_content": "00002e1f71"
+                }
+            },
+            {
+                "tagspace": "IPTC",
+                "tagspaceid": 0,
+                "tag": "CodedCharacterSet",
+                "label": "Coded Character Set",
+                "raw": {
+                    "_content": "UTF8"
+                }
+            },
+            {
+                "tagspace": "IPTC",
+                "tagspaceid": 0,
+                "tag": "EnvelopeRecordVersion",
+                "label": "Envelope Record Version",
+                "raw": {
+                    "_content": "4"
+                }
+            },
+            {
+                "tagspace": "IPTC",
+                "tagspaceid": 0,
+                "tag": "ApplicationRecordVersion",
+                "label": "Application Record Version",
+                "raw": {
+                    "_content": "4"
+                }
+            },
+            {
+                "tagspace": "IPTC",
+                "tagspaceid": 0,
+                "tag": "DateCreated",
+                "label": "Date Created",
+                "raw": {
+                    "_content": "2019:12:29"
+                }
+            },
+            {
+                "tagspace": "IPTC",
+                "tagspaceid": 0,
+                "tag": "TimeCreated",
+                "label": "Time Created",
+                "raw": {
+                    "_content": "13:29:59-08:00"
+                }
+            },
+            {
+                "tagspace": "IPTC",
+                "tagspaceid": 0,
+                "tag": "DigitalCreationDate",
+                "label": "Digital Creation Date",
+                "raw": {
+                    "_content": "2019:12:29"
+                }
+            },
+            {
+                "tagspace": "IPTC",
+                "tagspaceid": 0,
+                "tag": "DigitalCreationTime",
+                "label": "Digital Creation Time",
+                "raw": {
+                    "_content": "13:29:59-08:00"
+                }
+            },
+            {
+                "tagspace": "Photoshop",
+                "tagspaceid": 0,
+                "tag": "IPTCDigest",
+                "label": "IPTCDigest",
+                "raw": {
+                    "_content": "bd10aa7615ff82b963b833591c772a73"
+                }
+            },
+            {
+                "tagspace": "XMP-x",
+                "tagspaceid": 0,
+                "tag": "XMPToolkit",
+                "label": "XMPToolkit",
+                "raw": {
+                    "_content": "Adobe XMP Core 5.5-c002 1.148022, 2012/07/15-18:06:45        "
+                }
+            },
+            {
+                "tagspace": "XMP-aux",
+                "tagspaceid": 0,
+                "tag": "ApproximateFocusDistance",
+                "label": "Approximate Focus Distance",
+                "raw": {
+                    "_content": "2.7"
+                }
+            },
+            {
+                "tagspace": "XMP-aux",
+                "tagspaceid": 0,
+                "tag": "Firmware",
+                "label": "Firmware",
+                "raw": {
+                    "_content": "1.1.7"
+                }
+            },
+            {
+                "tagspace": "XMP-aux",
+                "tagspaceid": 0,
+                "tag": "FlashCompensation",
+                "label": "Flash Compensation",
+                "raw": {
+                    "_content": "0"
+                }
+            },
+            {
+                "tagspace": "XMP-aux",
+                "tagspaceid": 0,
+                "tag": "ImageNumber",
+                "label": "Image Number",
+                "raw": {
+                    "_content": "0"
+                }
+            },
+            {
+                "tagspace": "XMP-aux",
+                "tagspaceid": 0,
+                "tag": "Lens",
+                "label": "Lens",
+                "raw": {
+                    "_content": "EF50mm f/1.8 STM"
+                }
+            },
+            {
+                "tagspace": "XMP-aux",
+                "tagspaceid": 0,
+                "tag": "LensID",
+                "label": "Lens ID",
+                "raw": {
+                    "_content": "4156"
+                }
+            },
+            {
+                "tagspace": "XMP-dc",
+                "tagspaceid": 0,
+                "tag": "Format",
+                "label": "Format",
+                "raw": {
+                    "_content": "image/jpeg"
+                }
+            },
+            {
+                "tagspace": "XMP-exifEX",
+                "tagspaceid": 0,
+                "tag": "SerialNumber",
+                "label": "Serial Number",
+                "raw": {
+                    "_content": "133053000788"
+                }
+            },
+            {
+                "tagspace": "XMP-exifEX",
+                "tagspaceid": 0,
+                "tag": "LensSerialNumber",
+                "label": "Lens Serial Number",
+                "raw": {
+                    "_content": "00002e1f71"
+                }
+            },
+            {
+                "tagspace": "XMP-exifEX",
+                "tagspaceid": 0,
+                "tag": "LensInfo",
+                "label": "Lens Info",
+                "raw": {
+                    "_content": "50mm f/?"
+                }
+            },
+            {
+                "tagspace": "XMP-xmp",
+                "tagspaceid": 0,
+                "tag": "CreatorTool",
+                "label": "Creator Tool",
+                "raw": {
+                    "_content": "Adobe Photoshop Lightroom 5.4 (Macintosh)"
+                }
+            },
+            {
+                "tagspace": "XMP-xmp",
+                "tagspaceid": 0,
+                "tag": "MetadataDate",
+                "label": "Metadata Date",
+                "raw": {
+                    "_content": "2020:01:01 16:20:04+01:00"
+                }
+            },
+            {
+                "tagspace": "XMP-xmpMM",
+                "tagspaceid": 0,
+                "tag": "DerivedFromDocumentID",
+                "label": "Derived From Document ID",
+                "raw": {
+                    "_content": "2D909AC3334E7073CF327B67A300AF49"
+                }
+            },
+            {
+                "tagspace": "XMP-xmpMM",
+                "tagspaceid": 0,
+                "tag": "DerivedFromOriginalDocumentID",
+                "label": "Derived From Original Document ID",
+                "raw": {
+                    "_content": "2D909AC3334E7073CF327B67A300AF49"
+                }
+            },
+            {
+                "tagspace": "XMP-xmpMM",
+                "tagspaceid": 0,
+                "tag": "DocumentID",
+                "label": "Document ID",
+                "raw": {
+                    "_content": "xmp.did:2846f05f-cb1d-4739-859e-84050163b6d1"
+                }
+            },
+            {
+                "tagspace": "XMP-xmpMM",
+                "tagspaceid": 0,
+                "tag": "InstanceID",
+                "label": "Instance ID",
+                "raw": {
+                    "_content": "xmp.iid:2846f05f-cb1d-4739-859e-84050163b6d1"
+                }
+            },
+            {
+                "tagspace": "XMP-xmpMM",
+                "tagspaceid": 0,
+                "tag": "OriginalDocumentID",
+                "label": "Original Document ID",
+                "raw": {
+                    "_content": "2D909AC3334E7073CF327B67A300AF49"
+                }
+            }
+        ]
+    },
+    "stat": "ok"
+}

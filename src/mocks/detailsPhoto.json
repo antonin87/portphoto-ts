@@ -1,0 +1,79 @@
+{
+    "photo": {
+        "id": "48433137481",
+        "secret": "fdec0c52f5",
+        "server": "65535",
+        "farm": 66,
+        "dateuploaded": "1564687682",
+        "isfavorite": 0,
+        "license": "0",
+        "safety_level": "0",
+        "rotation": 0,
+        "originalsecret": "5e53a6ccb0",
+        "originalformat": "jpg",
+        "owner": {
+            "nsid": "127882799@N05",
+            "username": "antonin.morvan",
+            "realname": "Antonin Morvan",
+            "location": "",
+            "iconserver": "0",
+            "iconfarm": 0,
+            "path_alias": null
+        },
+        "title": {
+            "_content": "Etude pour un croquis"
+        },
+        "description": {
+            "_content": ""
+        },
+        "visibility": {
+            "ispublic": 1,
+            "isfriend": 0,
+            "isfamily": 0
+        },
+        "dates": {
+            "posted": "1564687682",
+            "taken": "2019-07-24 17:47:54",
+            "takengranularity": "0",
+            "takenunknown": "0",
+            "lastupdate": "1564687683"
+        },
+        "views": "10",
+        "editability": {
+            "cancomment": 0,
+            "canaddmeta": 0
+        },
+        "publiceditability": {
+            "cancomment": 1,
+            "canaddmeta": 0
+        },
+        "usage": {
+            "candownload": 1,
+            "canblog": 0,
+            "canprint": 0,
+            "canshare": 1
+        },
+        "comments": {
+            "_content": "0"
+        },
+        "notes": {
+            "note": []
+        },
+        "people": {
+            "haspeople": 0
+        },
+        "tags": {
+            "tag": []
+        },
+        "urls": {
+            "url": [
+                {
+                    "type": "photopage",
+                    "_content": "https://www.flickr.com/photos/127882799@N05/48433137481/"
+                }
+            ]
+        },
+        "media": "photo"
+    },
+    "stat": "ok"
+}
